@@ -1,0 +1,12 @@
+gradio>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+requests>=2.31.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+pydub>=0.25.1
+watchdog>=3.0.0  # For gradio file watching
+typing-extensions>=4.8.0
+safetensors>=0.4.0
