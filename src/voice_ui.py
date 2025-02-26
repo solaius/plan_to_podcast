@@ -2,7 +2,7 @@ import os
 import gradio as gr
 from typing import Tuple, Dict
 
-from plan_to_podcast.voice_manager import VoiceManager
+from voice_manager import VoiceManager
 
 def create_voice_tab() -> Tuple[gr.Tab, VoiceManager]:
     """Create the voice management tab UI."""

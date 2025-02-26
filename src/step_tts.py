@@ -106,7 +106,7 @@ class StepTTS:
             # Return 1 second of silence as fallback
             return (24000, np.zeros(24000))
 
-from plan_to_podcast.voice_manager import VoiceManager
+from voice_manager import VoiceManager
 
 def podcast_tts(text: str, host_voices: dict[str, str]):
     """Convert podcast script text to speech."""

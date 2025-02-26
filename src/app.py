@@ -1,11 +1,11 @@
 import gradio as gr
 
-from plan_to_podcast.constants import BANNER_TEXT, EXAMPLES
-from plan_to_podcast.generate_podcast import generate_podcast_script
-from plan_to_podcast.step_tts import podcast_tts
-from plan_to_podcast.utils import get_models
-from plan_to_podcast.voice_ui import create_voice_tab
-from plan_to_podcast.voice_manager import VoiceManager
+from constants import BANNER_TEXT, EXAMPLES
+from generate_podcast import generate_podcast_script
+from step_tts import podcast_tts
+from utils import get_models
+from voice_ui import create_voice_tab
+from voice_manager import VoiceManager
 
 MODELS = get_models()
 voice_manager = VoiceManager()
